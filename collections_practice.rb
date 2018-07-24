@@ -36,13 +36,13 @@ end
 def merge_data(keys, data)
   myArray = []
   keys.each_with_index do |e, i|
-    myArray << e << data
+    myArray << e << e[0]
   end
   myArray
 end
 
 def find_cool(hashes)
-  
+
 end
 
 def organize_schools(schools)
