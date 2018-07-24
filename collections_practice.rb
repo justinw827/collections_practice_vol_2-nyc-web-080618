@@ -36,7 +36,7 @@ end
 def merge_data(keys, data)
   myArray = []
   keys.each_with_index do |e, i|
-    myArray << e << e[0]
+    myArray << e << data[0]
   end
   myArray
 end
